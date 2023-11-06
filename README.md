@@ -18,7 +18,8 @@ Before you begin, ensure you have met the following requirements:
     The Arduino IDE installed on your computer for uploading the sketch to the Arduino board.
     Python 3 installed on your computer for running the MIDI conversion script.
     mido, python-rtmidi, and pyserial Python libraries installed for MIDI and serial communication.
-
+    Installing a library needed for Arduino to work properly with LSM6 is described in this repository:
+    https://github.com/pololu/lsm6-arduino
 Installation Guide
 Arduino Setup
 
