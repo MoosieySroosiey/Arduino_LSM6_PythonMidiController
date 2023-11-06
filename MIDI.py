@@ -4,9 +4,7 @@ import sys
 import time
 
 def map_to_midi(value, in_min, in_max):
-    # Ensure the value is within the input range
     value = max(in_min, min(value, in_max))
-    # Map the value to the MIDI range
     return int((value - in_min) * 127 / (in_max - in_min))
 
 if len(sys.argv) != 2:
