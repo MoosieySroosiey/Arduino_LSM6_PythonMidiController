@@ -31,10 +31,7 @@ Python Environment Setup
     Install Python 3 if you haven't already. You can download it from the official Python website.
 
     Install the required Python libraries by running the following commands in your terminal:
-
-bash
-
-pip install mido python-rtmidi pyserial
+    pip install mido python-rtmidi pyserial
 
 Running the MIDI Converter Script
 
@@ -45,10 +42,8 @@ Running the MIDI Converter Script
     Navigate to the directory where the Python script is located.
 
     Run the Python script with the correct serial port:
-
-bash
-
-python serial_to_midi.py COM3  # Replace COM3 with your actual port
+    
+    python serial_to_midi.py COM3  # Replace COM3 with your actual port
 
 Virtual MIDI Port Setup
 
